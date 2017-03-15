@@ -1,8 +1,16 @@
-class User {
-    // restrained to scope
-    private name: string;
-    // restrained to scope and extending classes
-    protected email: string;
+interface UserInterface{
+    name: string;
+    email: string;
+    age: number;
+    register();
+    payInvoice();
+}
+
+class User implements UserInterface {
+    // Private restrained to scope
+    name: string;
+    // Protected restrained to scope and extending classes
+    email: string;
     // accessible in the global scope
     public age: number;
 
