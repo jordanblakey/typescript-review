@@ -36,6 +36,5 @@ var Member = (function (_super) {
     return Member;
 }(User));
 var mike = new Member(1, 'Mike Smith', 'mike@gmail.com', 33);
-// let john = new User('John Doe', 'jdoe@gmail.com', 34);
-// john.register();
 mike.payInvoice();
+//# sourceMappingURL=classes.js.map

@@ -1,8 +1,6 @@
 function getSum(num1, num2) {
-    // return 'Hello';
     return num1 + num2;
 }
-// console.log(getSum(1, 4));
 var mySum = function (num1, num2) {
     if (typeof num1 == 'string') {
         num1 = parseInt(num1);
@@ -12,7 +10,6 @@ var mySum = function (num1, num2) {
     }
     return num1 + num2;
 };
-// console.log(mySum(3,5));
 function getName(firstName, lastName) {
     if (lastName == undefined) {
         return firstName;
@@ -24,3 +21,4 @@ function myVoid() {
     return;
 }
 console.log(myVoid());
+//# sourceMappingURL=functions.js.map
