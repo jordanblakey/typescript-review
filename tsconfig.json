@@ -5,11 +5,10 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
+    "target": "es6",
     // "outFile": "../../built/local/tsc.js",
     "outDir": ".",
-    "typeRoots": [
-      "./typings"
-    ],
+    "typeRoots": ["./typings"]
     // "types": [
     //   "node",
     //   "lodash",
@@ -19,13 +18,8 @@
   // "files": [
   //   "types.ts",
   // ],
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
-  ],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
   "extends": "./configs/base",
   "compileOnSave": true
 }
