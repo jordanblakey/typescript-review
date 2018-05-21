@@ -1,4 +1,5 @@
 # Learn You Typescript
+-
 
 Watch and compile: `tsc types.ts --watch --target ES5`
 
