@@ -1,19 +1,26 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
     "target": "es6",
     // "outFile": "../../built/local/tsc.js",
     "outDir": ".",
-    "typeRoots": ["./typings"]
+    "typeRoots": ["./typings"],
     // "types": [
     //   "node",
     //   "lodash",
     //   "express"
     // ]
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strict": true //, This flag turns on the below four: noImplicitAny, noImplicitThis, alwaysStrict, strictNullChecks
+    // "noImplicitAny": true,
+    // "noImplicitThis": true,
+    // "alwaysStrict": true,
+    // "strictNullChecks": true
   },
   // "files": [
   //   "types.ts",

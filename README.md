@@ -1,6 +1,8 @@
 # Learn You Typescript
 
-`tsc types.ts --watch --target ES5`
+Watch and compile:  `tsc types.ts --watch --target ES5`
+
+Run the linter: `tslint -c tslint.json 'src/**/*.ts'`
 
 Translation: run Typescript compiler in watch mode and transpile to ECMAscript 5
 

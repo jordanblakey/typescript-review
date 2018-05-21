@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc types.ts --watch --target ES5",
+    "lint": "tslint -c tslint.json 'src/**/*.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "typescript": "^2.5.3"
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
   },
   "devDependencies": {
     "typedoc": "^0.11.1"
